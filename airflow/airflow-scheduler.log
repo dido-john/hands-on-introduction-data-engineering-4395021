@@ -27,3 +27,4 @@
 2023-06-08 23:43:24,351 INFO - Setting next_dagrun for transform_dag to None, run_after=None
 2023-06-08 23:45:01,055 INFO - Resetting orphaned tasks for active dag runs
 2023-06-08 23:50:01,087 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:55:01,121 INFO - Resetting orphaned tasks for active dag runs
