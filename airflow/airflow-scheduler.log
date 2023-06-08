@@ -1,0 +1,29 @@
+2023-06-08 23:00:00,524 INFO - Starting the scheduler
+2023-06-08 23:00:00,536 INFO - Processing each file at most -1 times
+2023-06-08 23:00:00,542 INFO - Loaded executor: SequentialExecutor
+2023-06-08 23:00:00,552 INFO - Launched DagFileProcessorManager with pid: 4646
+2023-06-08 23:00:00,568 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:00:00,582 INFO - Configured default timezone Timezone('UTC')
+2023-06-08 23:05:00,725 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:10:00,757 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:15:00,819 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:20:00,849 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:25:00,896 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:30:00,934 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:35:00,967 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:40:01,011 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:43:17,268 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2023-06-08T23:43:16.394086+00:00 [scheduled]>
+2023-06-08 23:43:17,268 INFO - DAG transform_dag has 0/16 running and queued tasks
+2023-06-08 23:43:17,269 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2023-06-08T23:43:16.394086+00:00 [scheduled]>
+2023-06-08 23:43:17,271 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2023-06-08T23:43:16.394086+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-06-08 23:43:17,271 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2023-06-08T23:43:16.394086+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2023-06-08 23:43:17,299 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2023-06-08T23:43:16.394086+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2023-06-08 23:43:24,256 INFO - Executor reports execution of transform_dag.transform_task run_id=manual__2023-06-08T23:43:16.394086+00:00 exited with status success for try_number 1
+2023-06-08 23:43:24,262 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2023-06-08T23:43:16.394086+00:00, map_index=-1, run_start_date=2023-06-08 23:43:23.397195+00:00, run_end_date=2023-06-08 23:43:23.635277+00:00, run_duration=0.238082, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2023-06-08 23:43:17.269475+00:00, queued_by_job_id=1, pid=26030
+2023-06-08 23:43:24,346 INFO - Marking run <DagRun transform_dag @ 2023-06-08 23:43:16.394086+00:00: manual__2023-06-08T23:43:16.394086+00:00, state:running, queued_at: 2023-06-08 23:43:16.454851+00:00. externally triggered: True> successful
+2023-06-08 23:43:24,347 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2023-06-08 23:43:16.394086+00:00, run_id=manual__2023-06-08T23:43:16.394086+00:00, run_start_date=2023-06-08 23:43:17.193521+00:00, run_end_date=2023-06-08 23:43:24.346994+00:00, run_duration=7.153473, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-06-08 23:43:16.394086+00:00, data_interval_end=2023-06-08 23:43:16.394086+00:00, dag_hash=a088b9e73acede6cf09fcc793625fa96
+2023-06-08 23:43:24,351 INFO - Setting next_dagrun for transform_dag to None, run_after=None
+2023-06-08 23:45:01,055 INFO - Resetting orphaned tasks for active dag runs
+2023-06-08 23:50:01,087 INFO - Resetting orphaned tasks for active dag runs
