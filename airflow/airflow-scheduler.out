@@ -54,3 +54,4 @@ ModuleNotFoundError: No module named 'kubernetes'
 [[34m2023-06-08 23:45:01,055[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2023-06-08 23:50:01,087[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2023-06-08 23:55:01,121[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-06-09 00:00:01,156[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
